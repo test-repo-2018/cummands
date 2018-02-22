@@ -68,6 +68,7 @@ ls -l  ~ >> $BASE_DIR/rasp_status.txt 2>&1
 echo ------------------------------------------------------------------ >> $BASE_DIR/rasp_status.txt 2>&1 
 echo ~/data/deluge_completed    >> $BASE_DIR/rasp_status.txt 2>&1 
 ls -l  ~/data/deluge_completed  >> $BASE_DIR/rasp_status.txt 2>&1 
+find  ~/data/deluge_completed  >> $BASE_DIR/rasp_status.txt 2>&1 
 echo ------------------------------------------------------------------ >> $BASE_DIR/rasp_status.txt 2>&1 
 echo ~/data/Youtube  >> $BASE_DIR/rasp_status.txt 2>&1 
 find ~/data/Youtube -type f -print0 | xargs -0 ls -l  >> $BASE_DIR/rasp_status.txt 2>&1 
