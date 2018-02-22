@@ -95,15 +95,22 @@ export IPADDRESS
 rm rasp_stat_{$IPADDRESS}.zip
 rm rasp_stat_{$IPADDRESS}.txt
 mv rasp_status.txt rasp_stat_{$IPADDRESS}.txt
-echo 7za a -tzip -p${PASSWORD} -mem=AES256 rasp_stat_{$IPADDRESS}.zip rasp_stat_{$IPADDRESS}.txt
 7za a -tzip -p${PASSWORD} -mem=AES256 rasp_stat_{$IPADDRESS}.zip rasp_stat_{$IPADDRESS}.txt
 #---------------------------------------------------------------------
 
 NOW=$(date +"%Y-%m-%d-[%T]")
+#curl  --dump-header header.txt --form "message=from raspberry pi {$IPADDRESS} - $NOW" --form "fileName=@/home/pi/gsbabu_raspberry_status/rasp_stat_{$IPADDRESS}.zip" "http://66.7.209.193/~gsbabuc/message_post/index.php?action=upload" > curl.log 2>&1 
 
+#/home/pi/utils/mail_office_attachment.sh "/home/pi/gsbabu_raspberry_status/rasp_stat_{$IPADDRESS}.zip"
+
+
+#exit
+
+git pull 
 git config --global credential.helper cache
 git config --global push.default simple
 git add  "rasp_stat_{$IPADDRESS}.zip"
 git commit -m $NOW
+git pull 
 git push 
 
