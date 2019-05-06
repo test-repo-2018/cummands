@@ -1,0 +1,1 @@
+notepad feature req for config file 
