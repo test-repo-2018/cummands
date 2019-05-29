@@ -1,3 +1,0 @@
-check openlibrary for bizarro
-awscli for raspberry
-https://archive.org/search.php?query=creator%3A%22Chapman%2C+A.+H.+%28Arthur+Harry%29%2C+1924-%22

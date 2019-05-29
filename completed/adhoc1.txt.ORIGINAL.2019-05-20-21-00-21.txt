@@ -1,2 +1,0 @@
-https://github.com/IdealChain/signal-media-exporter
-https://unix.stackexchange.com/questions/505008/signal-desktop-how-to-export-messages
