@@ -1,0 +1,17 @@
+-----------
+https://dzone.com/articles/build-a-blockchain-poc-application-using-hyperledg
+https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa
+https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54
+https://hackernoon.com/a-beginners-guide-to-blockchain-programming-4913d16eae31
+https://www.guru99.com/blockchain-tutorial.html
+-----------
+https://www.udemy.com/build-blockchain/
+https://www.udemy.com/course/build-blockchain-deploy-private-blockchain/
+https://www.udemy.com/course/ethereum-development-course-blockchain-at-berkeley/
+https://www.udemy.com/course/code-your-own-cryptocurrency/
+https://www.udemy.com/course/magic-sprinkle-of-blockchain/
+https://www.udemy.com/course/create-your-own-cryptocurrency-ico-with-solidity-light/
+https://www.udemy.com/course/your-first-decentralized-app/
+https://www.udemy.com/course/ethereum-development-your-first-smart-contract-free/
+https://www.udemy.com/course/crypto-masterclass-class-one-ethereum-hands-on/
+-----------
